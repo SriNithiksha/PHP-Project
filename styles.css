@@ -15,6 +15,7 @@ body {
     padding: 0;
 }
 
+/** Header **/
 header {
     background-color: black;
     color: #fff;
@@ -49,37 +50,97 @@ nav {
     color: #fff;
 }
 
+/** HERO SECTION **/
 .hero {
-    background-image: url('hero-bg.jpg');
-    background-size: contain;
-    position: relative;
-    height: 40vh;
+    background-image: url('hero-bg.jpg') ;
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero h1 {
-    font-size: 36px;
-    color: white;
+.hero-content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 4em;
     margin: 0;
+    padding: 0;
 }
 
-.hero p {
-    font-size: 18px;
-    color: whitesmoke;
-    margin: 20px 0;
+.hero-content p {
+    font-size: 3em;
+    margin: 10px 0;
 }
 
-.btn {
+.cta-button {
     display: inline-block;
     padding: 10px 20px;
+    margin-top: 20px;
     background-color: #ff6600;
+    font-size: 1.5rem;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s;
 }
+
+.cta-button:hover {
+    background-color: #ff9900;
+}
+
+/** TOUR SEARCH **/
+.tour-search {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  
+  .tour-search-form .input-label {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .tour-search-form .input-field {
+    background: white;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+  }
+  
+  .tour-search-form .input-field::placeholder { color: grey; }
+  
+  .tour-search-form .input-field::-webkit-datetime-edit {
+    color: grey;
+    text-transform: uppercase;
+  }
+  
+  .tour-search-form .input-wrapper { margin-bottom: 15px; }
+  
+  .tour-search .btn {
+    background-color: #ff9900;
+    font-size: 1.5rem;
+    color: black;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border-width: 1px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+
 
 /** Destination Page **/
 .featured-destinations {
