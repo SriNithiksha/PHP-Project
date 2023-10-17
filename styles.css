@@ -180,6 +180,39 @@ select {
     color:#0d0d0d;
     margin-bottom: 20px;
 }
+
+/** OUR PACKAGAES **/
+.tour-packages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.tour-package {
+    width: 300px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.tour-package img {
+    max-width: 100%;
+}
+
+.tour-package h2{
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.price {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+
 /** DESTINATION PAGE  **/
 .featured-destinations {
     max-width: 1200px;
