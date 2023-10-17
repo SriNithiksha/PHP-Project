@@ -18,8 +18,9 @@ body {
 /** Header **/
 header {
     background-color: black;
-    color: #fff;
+    color: #ff6600;
     padding: 20px 0;
+    
 }
 
 nav {
@@ -47,12 +48,16 @@ nav {
 .nav-links a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #fff;
+    color: #ff6600;
 }
+.nav-links a:hover {
+    color: white;
+}
+
 
 /** HERO SECTION **/
 .hero {
-    background-image: url('hero-bg.jpg') ;
+    background-image: url('assets/images/hero-bg.jpg') ;
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -164,6 +169,17 @@ select {
     background-color: #ff9900;
 }
 
+/** POPULAR DESTINATION **/
+.featured-destinations h2{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+.featured-destinations p{
+    font-size: 1.5rem;
+    color:#0d0d0d;
+    margin-bottom: 15px;
+}
 /** DESTINATION PAGE  **/
 .featured-destinations {
     max-width: 1200px;
