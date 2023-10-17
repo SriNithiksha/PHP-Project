@@ -88,7 +88,8 @@ nav {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #ff6600;
     font-size: 1.5rem;
     color: #fff;
@@ -199,7 +200,27 @@ select {
 .price{
     font-size: 1.5rem;
     font-weight: bold;
+    color: hsl(211, 69%, 40%);
 }
+
+.book-now .cta-button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: hsl(211, 69%, 40%);
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.book-now .cta-button:hover {
+    background-color: hwb(211 33% 37%);
+}
+
 
 /** DESTINATION PAGE  **/
 .featured-destinations {
