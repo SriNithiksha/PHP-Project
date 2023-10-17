@@ -20,7 +20,7 @@ header {
     background-color: black;
     color: #ff6600;
     padding: 20px 0;
-    
+
 }
 
 nav {
@@ -50,6 +50,7 @@ nav {
     font-size: 1.5rem;
     color: #ff6600;
 }
+
 .nav-links a:hover {
     color: white;
 }
@@ -57,7 +58,7 @@ nav {
 
 /** HERO SECTION **/
 .hero {
-    background-image: url('assets/images/hero-bg.jpg') ;
+    background-image: url('assets/images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -110,7 +111,7 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: block;
-    
+
 }
 
 .container h1 {
@@ -136,7 +137,7 @@ nav {
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 35px;
-    
+
 }
 
 .input-group input[type="text"],
@@ -170,48 +171,30 @@ select {
 }
 
 /** POPULAR DESTINATION **/
-.featured-destinations h2{
+.featured-destinations h2 {
     font-size: 1.5rem;
     color: black;
     margin-bottom: 10px;
 }
-.featured-destinations p{
+
+.featured-destinations p {
     font-size: 1.5rem;
-    color:#0d0d0d;
+    color: #0d0d0d;
     margin-bottom: 20px;
 }
 
 /** OUR PACKAGAES **/
-.tour-packages {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px;
-}
-
-.tour-package {
-    width: 300px;
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 10px;
+.packages {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
     text-align: center;
-    background-color: #f9f9f9;
 }
 
-.tour-package img {
-    max-width: 100%;
+.packages h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
-
-.tour-package h2{
-    margin: 10px 0;
-    font-size: 1.5rem;
-}
-
-.price {
-    font-weight: bold;
-    color: #007BFF;
-}
-
 
 /** DESTINATION PAGE  **/
 .featured-destinations {
@@ -275,12 +258,13 @@ select {
 }
 
 /**Gallery Page**/
-main{
+main {
     font-size: 2rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: center;
 }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
