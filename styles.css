@@ -196,6 +196,11 @@ select {
     margin-bottom: 20px;
 }
 
+.price{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /** DESTINATION PAGE  **/
 .featured-destinations {
     max-width: 1200px;
